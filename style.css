@@ -22,10 +22,8 @@ html, body {
 }
 #main aside {
   grid-area: aside;
-}
-#main aside img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  background-image: url("https://images.unsplash.com/photo-1752377005210-c9bf1f56a609?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1974");
+  background-size: cover;
   width: 100%;
 }
 #main #content {
